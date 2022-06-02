@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    background: url('./images/fon_bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+    transition: .5s;
+}
+
+a:hover,
+a:focus,
+a:active,
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #EAD8A8 !important;
+    transition: .5s;
+
+}
+#logo-header-main{
+    width: 220px;
+
+}
+.collapse {
+    /* background: url('./images/bg_black.jpeg') no-repeat;
+    background-size: cover; */
+}
+
+header {
+    /* background: url('./images/bg_black.jpeg') no-repeat;
+    background-size: cover; */
+}
+
+.main-title {
+    background: url('./images/bg_black.jpeg') no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background: url('./images/footer_bg.jpeg') no-repeat;
+    background-size: cover;
+    color: white;
+}
+.footer-contacts>div {
+    text-align: right;
+}
+@media (max-width: 576px) {
+    .footer-contacts>div {
+        text-align: left;
+    }
+}
+
+.footer-tel::before {
+    content: url('./images/i.phone.png');
+    margin-right: 10px;
+}
+
+.footer-addr::before {
+    content: url('./images/i.addr.png');
+    margin-right: 10px;
+}
+
+.disc {
+    list-style-type: disc;
+}
+.card{
+    border: transparent!important;
+    background-color: transparent!important;
+}
